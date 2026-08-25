@@ -1,0 +1,24 @@
+<svg width="1440" height="360" viewBox="0 0 1440 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flow-a" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76AA00" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#76AA00" stop-opacity="0.34"/>
+      <stop offset="0.5" stop-color="#B5FF00" stop-opacity="0.78"/>
+      <stop offset="0.82" stop-color="#76AA00" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#76AA00" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft-glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#soft-glow)" stroke="url(#flow-a)" stroke-linecap="round">
+    <path d="M-40 206C79 205 119 112 220 117C322 122 326 244 445 241C560 238 575 134 689 140C813 147 820 245 947 237C1069 229 1093 116 1202 118C1311 120 1341 204 1480 198" stroke-width="2.2"/>
+    <path d="M-35 178C85 173 119 247 226 241C330 235 337 133 452 137C573 142 585 215 699 211C817 207 834 128 951 135C1069 142 1108 232 1217 224C1324 216 1370 160 1485 166" stroke-width="1.5" opacity="0.72"/>
+    <path d="M-26 235C73 239 116 168 214 166C320 164 351 213 452 213C562 214 600 171 704 168C810 165 846 202 954 200C1066 197 1115 154 1217 160C1327 167 1367 226 1480 225" stroke-width="1.1" opacity="0.48"/>
+    <path d="M-32 151C72 156 111 195 218 195C321 195 356 157 459 159C566 161 600 194 707 191C817 188 853 151 956 155C1060 159 1100 198 1207 196C1318 194 1363 147 1480 151" stroke-width="0.9" opacity="0.34"/>
+  </g>
+</svg>
