@@ -1,1 +1,0 @@
-import{r as u}from"./index-Dzib7Cje.js";import{u as f,i as c}from"./Pagination-DP37dAIc.js";var l=function(n,r,e){e===void 0&&(e={});var a=f(n),t=u.useRef(null),i=u.useCallback(function(){t.current&&clearInterval(t.current)},[]);return u.useEffect(function(){if(!(!c(r)||r<0))return e.immediate&&a(),t.current=setInterval(a,r),i},[r,e.immediate]),i};export{l as u};
