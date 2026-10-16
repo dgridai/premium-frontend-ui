@@ -1,0 +1,1 @@
+import{r as a}from"./index-DDFhaA1L.js";import{a as f,i as c}from"./Pagination-CkNNP1D4.js";var l=function(n,r,e){e===void 0&&(e={});var u=f(n),t=a.useRef(null),i=a.useCallback(function(){t.current&&clearInterval(t.current)},[]);return a.useEffect(function(){if(!(!c(r)||r<0))return e.immediate&&u(),t.current=setInterval(u,r),i},[r,e.immediate]),i};export{l as u};
